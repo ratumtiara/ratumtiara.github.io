@@ -11,8 +11,9 @@ html, body{
     background-image: linear-gradient(rgb(255, 254, 232),rgb(233, 255, 211));
     padding: 30px 10px 30px 50px;
     border: 5px rgb(131, 168, 126);
-    border-style: inset;
-    margin: 10px;
+    border-style:hidden;
+    margin: 5px;
+    
 }
 
 #logo {width: 35%
@@ -24,35 +25,87 @@ html, body{
     width: 35vw;
     height: auto;
     align-items: center;
-}
-
-.link{
-    color:rgb(13, 85, 10);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
-    text-decoration: none;
     
 }
 
-.link:hover{
-    color:rgb(133, 22, 22);
+.link1{
+    color:rgb(255, 254, 232);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(67, 112, 84);
+    padding: 23px;
 }
+
+.link1:hover{
+    color:rgb(52, 92, 67);
+    background-color: rgb(208, 250, 253);
+}
+
+.link2{
+    color:rgb(255, 254, 232);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(67, 112, 84);
+    padding: 23px;
+}
+
+.link2:hover{
+    color:rgb(52, 92, 67);
+    background-color:lavenderblush;
+}
+
+.link3{
+    color:rgb(255, 254, 232);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(67, 112, 84);
+    padding: 23px;
+}
+
+.link3:hover {
+    color:rgb(52, 92, 67);
+    background-color:rgb(243, 243, 187);
+}
+
+.link4{
+    color:rgb(255, 254, 232);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: rgb(67, 112, 84);
+    padding: 23px;
+}
+
+.link4:hover {
+    color:rgb(52, 92, 67);
+    background-color:rgb(128, 163, 113);
+}
+
+
 
 #judul{
     color:rgb(234, 247, 242);
     text-align: center;
-    font-family: cursive;
-    text-shadow: -2px 0 rgb(13, 14, 2), 0 3px rgb(224, 255, 86), 1px 0 yellowgreen, 0 -1px yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /*text-shadow: -2px 0 rgb(13, 14, 2), 0 3px rgb(224, 255, 86), 1px 0 yellowgreen, 0 -1px yellowgreen;*/
     padding: 30px ;
-    margin: 10px;
+    margin: 5px;
     background-color:rgb(67, 112, 84);
 }
-
 
 #photoprofile {
     width: 500px;
     display: block;
-    margin: auto;  
+    margin: auto;
+    padding: 40px;  
 }
 
 .quote {color: rgb(170, 9, 9);}
@@ -62,37 +115,79 @@ html, body{
     color: rgb(52, 92, 67);
     text-align: center;
     background-color: rgb(208, 250, 253);
-    padding: 28px;
+    padding: 40px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 10px;     
+    margin: 5px;     
+}
+
+#gabout {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+#gabout:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #bg{
     color: rgb(52, 92, 67);
     text-align: center;
     background-color: lavenderblush;
-    padding:28px;
+    padding: 40px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 10px;       
-
+    margin: 5px;       
 }
+
+#gbg {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+#gbg:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 
 #story{
     color: rgb(52, 92, 67);
     text-align: center;
     background-color: lightyellow;
-    padding:28px;
+    padding:40px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;  
+    margin: 5px;  
 
 }
+
+
+#gstory {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+#gstory:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 #lessons{
     color: rgb(52, 92, 67);
     text-align: center;
     background-color: rgb(205, 255, 228);
-    padding:28px;
+    padding:40px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 10px; 
+    margin: 5px; 
 }
 
 @font-face {
@@ -105,7 +200,7 @@ html, body{
     text-align:justify;
     font-family:Yomogi;
     font-size: 20px;
-    padding: 30px 150px 150px 150px;
+    padding: 10px 150px 150px 150px;
     margin: 50px;
         
     
@@ -125,10 +220,18 @@ html, body{
     margin: 30px;
 }
 .sosmed{
-    width: 5%;
+    width: 50px;
     margin-right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(109, 148, 100);
 }
+
+.sosmed:hover{
+    opacity: 0.5;
+}
+
 #contact{padding:20px;
     font-size: 35px;
-    color: rgb(27, 56, 32);
+    color: rgb(36, 78, 36);
 }
