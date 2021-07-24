@@ -2,21 +2,21 @@ html, body{
     margin: 5px;
     padding: 5px;
     border: 5px;
-    background-color: rgb(219, 233, 214);
+    background-color: rgb(201, 230, 211);
 }
 
 #webheader {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(rgb(255, 254, 232),rgb(233, 255, 211));
-    padding: 30px 10px 30px 50px;
+    background-color:rgb(219, 238, 216);
+    padding: 10px 10px 10px 50px;
     border: 5px rgb(131, 168, 126);
     border-style:hidden;
     margin: 5px;
     
 }
 
-#logo {width: 35%
+#logo {width: 25%
 }
 
 #nav1 {
@@ -88,7 +88,18 @@ html, body{
     background-color:rgb(128, 163, 113);
 }
 
+#welcome{  
+    background-image: url("assets/4.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 5px;
 
+    
+}
 
 #judul{
     color:rgb(234, 247, 242);
@@ -167,7 +178,6 @@ html, body{
 
 }
 
-
 #gstory {
     width: 200px;
     display: block;
@@ -190,6 +200,18 @@ html, body{
     margin: 5px; 
 }
 
+#glessons{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+#glessons:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 @font-face {
     font-family: 'Yomogi';
     src: url('Yomogi-Regular.ttf');
@@ -207,7 +229,7 @@ html, body{
 }
 #footer{
     background-color: rgb(128, 163, 113);
-    background-image: linear-gradient(rgb(233, 232, 214),rgb(131, 168, 126),rgb(128, 163, 113));
+    background-image: linear-gradient(rgb(214, 233, 220),rgb(159, 201, 187),rgb(128, 163, 113));
     height: 300px;
     font-family: Georgia;
     color: rgb(255, 248, 254);
